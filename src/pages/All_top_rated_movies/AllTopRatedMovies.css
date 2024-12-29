@@ -1,0 +1,25 @@
+.language-button-div{
+  display: flex;
+  gap: 1.4rem;
+  justify-content: center;
+}
+.all-movie-card-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* gap: 20px; */
+  padding: 20px;
+  column-gap: 4rem;
+  row-gap: 7rem;
+}
+.movies-main-div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pagination-div{
+  margin-top: 4rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}

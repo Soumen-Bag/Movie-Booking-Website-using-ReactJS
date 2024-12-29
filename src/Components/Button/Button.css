@@ -1,0 +1,114 @@
+Button.hero-button{
+  background-color: rgb(255, 0, 0);
+  height: 45px;
+  margin-top: 1.9rem;
+  /* width: 100%; */
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+Button.hero-button:hover{
+  background-color: rgb(255, 0, 0,0.8);
+}
+Button.top-rated-movie-see-all-button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+Button.top-rated-movie-see-all-button:hover{
+  color: rgb(0, 0, 0,0.7);
+}
+Button.language-button{
+  background-color: rgb(139, 139, 139,0.8);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 17px;
+  cursor: pointer;
+  color: white;
+}
+Button.language-button:hover{
+  background-color: rgb(139, 139, 139,0.6);
+}
+Button.pagination-button{
+  background-color: rgb(255, 2, 2,0.8);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 17px;
+  cursor: pointer;
+  color: white;
+}
+Button.pagination-button:hover{
+  background-color: rgb(255, 2, 2,0.7);
+}
+Button.date-button{
+  border: none;
+  border-radius: 13px;
+  padding: 10px 6px;
+  cursor: pointer;
+  color: rgb(10, 10, 10);
+  background-color: rgb(139, 139, 139,0.6);
+  /* background-color: #007bff */
+}
+Button.date-button:hover{
+  background-color: rgb(139, 139, 139,0.9);
+}
+Button.date-button-active{
+  background-color: rgb(139, 139, 139,1);
+  color: rgb(255, 255, 255) !important;
+  transform: scale(0.95);
+}
+Button.time-button{
+  border: none;
+  border-radius: 13px;
+  padding: 6px 16px;
+  cursor: pointer;
+  color: rgb(10, 10, 10);
+  background-color: rgb(139, 139, 139,0.6);
+}
+Button.time-button:hover{
+  background-color: rgb(139, 139, 139,0.8);
+}
+Button.icrement-decrement-button{
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+Button.icrement-decrement-button:hover{
+  color: rgb(0, 0, 0,0.6);
+}
+Button.modal-button{
+  background-color: rgb(255, 2, 2,0.8);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 17px;
+  cursor: pointer;
+  color: white;
+}
+Button.modal-button:hover{
+  background-color: rgb(255, 2, 2,0.7);
+}
+Button.confirm-button{
+  background-color: rgb(255, 2, 2,0.8);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 17px;
+  cursor: pointer;
+  color: white;
+  /* width: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin:0 10rem;
+}
+Button.confirm-button:hover{
+  background-color: rgb(255, 2, 2,0.7);
+}

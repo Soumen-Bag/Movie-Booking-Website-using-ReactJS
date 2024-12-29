@@ -1,0 +1,130 @@
+.outer-main-div{
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/2bcf01ee-7ef6-4930-b0d5-c6863853c461/web/IN-en-20241125-TRIFECTA-perspective_a47db038-756f-4f26-b1f7-cfc882b98746_large.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  /* opacity: 0.6; */
+  /* height: 100%; */
+  display: flex; 
+  justify-content:center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+.outer-main-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  z-index: -1; /* Keep it behind all content */
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  /* background-color: rgb(5, 5, 5); */
+  background-color: rgba(0, 0, 0, 0.5);
+
+  z-index: 1;
+  margin: 3.4rem auto;
+  /* height: 100vh; */
+  /* width: 80%; */
+  min-width: 400px;
+  color: white;
+  border-radius: 8px;
+  padding:  30px 50px;
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  /* height: 17px; */
+  margin-top: 1.9rem;
+}
+label {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+.heading {
+  margin-bottom: 1.5rem;
+  margin-top: 1.8rem;
+  text-align: center;
+}
+
+input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  /* outline: none; */
+  outline-color: rgb(236, 232, 232); 
+  outline-style:inset;
+  background-color: rgba(42, 47, 59, 0.5);
+  color: rgb(231, 226, 226);
+  height: 29px;
+  font-size: 1rem;
+}
+.main-button{
+  background-color: rgb(255, 0, 0);
+  height: 45px;
+  margin-top: 1.9rem;
+  width: 100%;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.main-button:hover{
+  background-color: rgb(255, 0, 0,0.8);
+}
+.small-button{
+  color: red;
+  font-weight: bold;
+  background-color: none;
+  cursor: pointer;
+}
+.small-button:hover{
+  color: rgb(255, 0, 0,0.8);
+}
+.account{
+  display: flex;
+  margin-top: 20px;
+  gap: 4px;
+}
+.password-container {
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+}
+.password-container input {
+  width: 90%;
+  padding-right: 2.5rem; /* Space for the eye icon */
+  text-align: left;
+}
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 70%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+}
+.password-toggle:hover {
+  color: rgb(255, 0, 0);
+}

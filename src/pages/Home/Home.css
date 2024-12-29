@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/2bcf01ee-7ef6-4930-b0d5-c6863853c461/web/IN-en-20241125-TRIFECTA-perspective_a47db038-756f-4f26-b1f7-cfc882b98746_large.jpg");
+  height: 35rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  column-gap: 20px;
+}
+.hero-section-h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.hero-section-p {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 70%;
+}
+.top-rated-movie-heading-div {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 1.2rem; */
+}
+.movie-card-section {
+  display: flex;
+  gap: 3.3rem;
+  margin-top: 1.4rem;
+  justify-content: center;
+}
+.top-rated-movie {
+  margin-top: 20px;
+  margin-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 1024px) {
+  /* Styles for tablets (screen width up to 1024px) */
+  .hero-section-h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section-p {
+    font-size: 1.2rem;
+  }
+
+  .movie-card-section {
+    gap: 3rem;
+  }
+
+  .hero-button,
+  .top-rated-movie-see-all-button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Styles for smaller tablets and large mobile phones */
+  .hero-section {
+    height: 28rem;
+  }
+
+  .hero-section-h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-section-p {
+    font-size: 1rem;
+  }
+
+  .movie-card-section {
+    flex-direction: column;
+    align-items: center;
+    column-gap: 60px;
+  }
+
+  .hero-button,
+  .top-rated-movie-see-all-button {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for small mobile devices */
+  .hero-section {
+    height: 25rem;
+    padding: 0 0.5rem;
+  }
+
+  .hero-section-h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section-p {
+    font-size: 0.9rem;
+  }
+
+  .movie-card-section {
+    gap: 3.7rem;
+  }
+
+  .hero-button,
+  .top-rated-movie-see-all-button {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
