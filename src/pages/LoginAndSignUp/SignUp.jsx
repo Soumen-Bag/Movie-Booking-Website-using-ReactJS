@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SignUp.css";
+import "./Signup.css";
 import { IoEye } from "react-icons/io5";
 import { IoMdEyeOff } from "react-icons/io";
 import { signup } from "../../api";
