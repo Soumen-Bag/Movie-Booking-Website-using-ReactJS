@@ -45,6 +45,9 @@ function App() {
         theme="light"
         transition={Bounce}
       />
+      <div>
+        <p>CopyRight Soumen Bag 2024 </p>
+      </div>
     </BrowserRouter>
   );
 }
