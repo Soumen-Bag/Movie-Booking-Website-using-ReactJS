@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 import { IMAGE_URL, ratingCount, voteCount } from "../../constant";
 import { useNavigate } from "react-router";
 const MovieCard = ({ movie }) => {
-  console.log(movie);
+  // console.log(movie);
   const navigate = useNavigate();
   return (
     <div className="movie-card" onClick={() => navigate(`/movies/${movie.id}`)}>

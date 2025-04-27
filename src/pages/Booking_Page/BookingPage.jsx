@@ -67,6 +67,7 @@ const BookingPage = () => {
         totalPrice: ticketPrice * quantity,
         time: selectTime,
       };
+      console.log(movie)
       await bookMovie(movie);
       openModal();
     } else {

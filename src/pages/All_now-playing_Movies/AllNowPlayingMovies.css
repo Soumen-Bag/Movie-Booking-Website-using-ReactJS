@@ -1,11 +1,7 @@
-.language-button-div{
-  display: flex;
-  gap: 1.4rem;
-  justify-content: center;
-}
+
 .all-movie-card-section {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  /* grid-template-columns: auto auto auto auto auto; */
   /* gap: 20px; */
   padding: 20px;
   column-gap: 4rem;

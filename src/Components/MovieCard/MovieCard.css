@@ -26,7 +26,9 @@
 }
 .movie-poster{
   height: 14rem;
+  /* height: auto; */
   width: 12rem;
+  /* width: 100%; */
   object-fit: cover;
   border-radius: 5px 5px 0 0;
 }
@@ -43,6 +45,7 @@
   text-align: center;
   padding: 6px 0;
   border-radius:0 0 5px 5px;
+  width: 100%;
 
 }
 .movie-rating{
@@ -56,20 +59,5 @@
   display: flex;
   
 }
-@media (max-width: 1024px) {
-  .movie-card {
-    max-width: calc(100% / 3 - 1rem); /* 3 cards per row */
-  }
-}
 
-@media (max-width: 768px) {
-  .movie-card {
-    max-width: calc(100% / 2 - 1rem); /* 2 cards per row */
-  }
-}
 
-@media (max-width: 480px) {
-  .movie-card {
-    max-width: 100%; /* Full width */
-  }
-}
